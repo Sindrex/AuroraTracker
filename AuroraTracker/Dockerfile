@@ -26,5 +26,5 @@ RUN dotnet publish "AuroraTracker.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet Chatroom.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet AuroraTracker.dll
 #ENTRYPOINT ["dotnet", "AuroraTracker.dll"]
