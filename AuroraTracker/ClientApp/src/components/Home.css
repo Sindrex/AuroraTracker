@@ -1,13 +1,10 @@
-#container {
-    height: 100vh;
-    bottom: 0;
+span.range-slider__wrap {
+    width: 80%;
     margin: auto;
 }
-
-#header {
-    padding-top: 50px;
-    text-align: center;
+input.range-slider.range-slider--primary {
+    width: 100%;
 }
-#leftsidebar {
-    margin-left: 15px;
+#imgslot{
+    height: 65vh;
 }
